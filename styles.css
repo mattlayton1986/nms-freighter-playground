@@ -1,0 +1,61 @@
+body {
+  display: flex;
+}
+
+input#color-picker {
+  width: 100%;
+}
+
+.panel {
+  align-items: center;
+  width: 30%;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tile {
+  width: 45%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: 2px solid #000;
+  background-color: #999;
+}
+
+.tile h3 {
+  font-size: 14px;
+}
+
+.layout {
+  display: flex;
+  width: 1100px;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+.cell {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  border: 1px solid #999;
+  margin: 0;
+  padding: 0;
+}
+
+.cell img {
+  width: 50px;
+  height: 50px;
+}
